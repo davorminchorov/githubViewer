@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="githubViewer">
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+    <h1 class="text-center">GitHub Viewer</h1>
+    <div ng-view class="container"></div>
+
+
+
+    <!-- External Libraries -->
+    <!-- JQuery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Twitter Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.js"></script>
+    <!-- Angular & Angular-Route -->
+    <script src="//code.angularjs.org/1.2.26/angular.js"></script>
+    <script src="//code.angularjs.org/1.2.26/angular-route.js"></script>
+    <!-- Custom scripts -->
+    <script src="app.js"></script>
+    <!-- Controllers -->
+    <script src="MainController.js"></script>
+    <script src="UserController.js"></script>
+    <script src="RepoController.js"></script>
+    <!-- Services -->
+    <script src="github.js"></script>
+</body>
+
+
+</html>
